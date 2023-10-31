@@ -1176,6 +1176,7 @@ typedef struct mainConfig_s {
 	// ofs 0x000005E0 (dec 1504)
 	//char initCommandLine[512];
 #if PLATFORM_W600 || PLATFORM_W800
+
 #define ALLOW_SSID2 0
 	char initCommandLine[512];
 #else
