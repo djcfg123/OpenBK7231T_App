@@ -1187,12 +1187,12 @@ typedef struct mainConfig_s {
 	// offset 0x00000C40 (3136 decimal)
 	char wifi_pass2[68];
 	// offset 0x00000C84 (3204 decimal)
-	char unused[380];
+	char unused[370];
 #endif
 } mainConfig_t; 
 
 // one sector is 4096 so it we still have some expand possibility
-#define MAGIC_CONFIG_SIZE_V3		2016
+#define MAGIC_CONFIG_SIZE_V3		2006
 #define MAGIC_CONFIG_SIZE_V4		3584
 
 extern mainConfig_t g_cfg;
