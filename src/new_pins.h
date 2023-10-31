@@ -1178,6 +1178,7 @@ typedef struct mainConfig_s {
 #if PLATFORM_W600 || PLATFORM_W800
 #define ALLOW_SSID2 0
 	char initCommandLine[512];
+	
 #else
 #define ALLOW_SSID2 1
 	char initCommandLine[1568];
